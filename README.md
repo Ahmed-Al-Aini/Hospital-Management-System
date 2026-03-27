@@ -33,12 +33,12 @@ The system offers comprehensive coverage of the most important aspects of medica
 
 ![Inventory Flow Diagram](https://private-us-east-1.manuscdn.com/sessionFile/dHsWHXhrZYjAVZ7nK7b4Qr/sandbox/BTP5xl9QxqA5cr3FahUmrN-images_1774636614449_na1fn_L2hvbWUvdWJ1bnR1L2hvc3BpdGFsX21hbmFnZW1lbnRfc3lzdGVtL2ludmVudG9yeV9mbG93.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZEhzV0hYaHJaWWpBVlo3bks3YjRRci9zYW5kYm94L0JUUDV4bDlReHFBNWNyM0ZhaFVtck4taW1hZ2VzXzE3NzQ2MzY2MTQ0NDlfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwyaHZjM0JwZEdGc1gyMWhibUZuWlcxbGJuUmZjM2x6ZEdWdEwybHVkbVZ1ZEc5eWVWOW1iRzkzLnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=mJxNyRvXaal47z~unCCgC-EUtKg7Tbusz~cKu1ic3dGqNZ-N-fYjBzxL--cxa2nelAdqFyU9SXpcV3IQpvOmNvTBCy-ErQmWtSoxkZBrYHaoEcbfHlWNgYwTvbHVwWycpbBWmhrSE1438XzGjAGVj~m0kyryaxx624vcmndAG7fNpLD3b1m9lacpRSq819NO6bjiMVFBVHOENZQk1ofxypD-gKX9uGMSkzDMsS83UQl5iGZ32qYlHul7IMCA6tApv37f2z3tRtpOG~igcIlHV0FCiDp6e5-NuyNC8xqCANTlg37M-k~Pm40QPsfe-Yr31ipvAqUufzOiTjNtzG54UA__)
 
-### 5. Prescriptions
+### 6. Prescriptions
 - Creation of electronic prescriptions linked to doctors and patients.
 - Tracking prescription status (pending, dispensed, cancelled).
 - Ability to print prescriptions professionally.
 
-### 6. Reports & Analytics
+### 7. Reports & Analytics
 - Reports on medicine consumption over a specified period.
 - Reports on expired or soon-to-expire medicines.
 - Reports on inventory movement and daily/monthly prescriptions.
