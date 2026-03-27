@@ -1,0 +1,96 @@
+.dashboards-header {
+    margin-bottom: 35px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: var(--radius-lg);
+    color: #000;
+    box-shadow: var(--shadow-lg);
+}
+
+.dashboards-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.welcome-message {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* خلفيات ملونة للبطاقات */
+.bg-primary-gradient {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+}
+
+.bg-success-gradient {
+    background: linear-gradient(135deg, #06d6a0 0%, #05b589 100%);
+    color: white;
+}
+
+.bg-warning-gradient {
+    background: linear-gradient(135deg, #ffbe0b 0%, #fb8b24 100%);
+    color: white;
+}
+
+.bg-danger-gradient {
+    background: linear-gradient(135deg, #ef476f 0%, #d43b5e 100%);
+    color: white;
+}
+
+.bg-info-gradient {
+    background: linear-gradient(135deg, #4cc9f0 0%, #3aa8d8 100%);
+    color: white;
+}
+
+/* زر عائم */
+.floating-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    z-index: 999;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1) rotate(90deg);
+    box-shadow: var(--shadow-xl);
+}
+
+/* شريط التقدم */
+.progress {
+    height: 8px;
+    background: var(--gray-lighter);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    border-radius: var(--radius-full);
+    transition: width 0.5s ease;
+}
+
+/* تذييل الصفحة */
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    color: var(--gray);
+    border-top: 1px solid var(--gray-lighter);
+}

@@ -1,0 +1,40 @@
+
+Options -Indexes
+Options +FollowSymLinks
+
+RewriteEngine On
+
+# منع الوصول المباشر للمجلدات الحساسة
+RewriteRule ^(config|core|controllers|models|storage|vendor)/ - [F,L]
+
+RewriteBase /project/pharmacy/
+
+# إذا لم يكن الملف أو المجلد موجود فعلياً
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# منع وصول لملفات معينه
+<FilesMatch "\.(env|ini|log|sql|json|lock)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# إعادة التوجيه إلى Front Controller
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+# امان اضافي
+<IfModule mod_headers.c>
+Header set X-XSS-Protection "1;mode=block"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Protection "nosniff"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+
+#ضغط الملفات 
+<IfModule mode_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>
