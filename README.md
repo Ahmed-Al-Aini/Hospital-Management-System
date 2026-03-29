@@ -109,16 +109,17 @@ mysql -u root -p hospital_system < config/Hospital_Management_System.sql
 
 ---
 
-👥 User Roles & Permissions
+### 👥 User Roles & Permissions
 
-Permission Admin Doctor Pharmacist Secretary
-Manage Patients ✅ ❌ ❌ ✅
-Create Visits ✅ ✅ ❌ ✅
-Create Prescriptions ✅ ✅ ❌ ❌
-Dispense Medications ✅ ❌ ✅ ❌
-Manage Inventory ✅ ❌ ✅ ❌
-View Reports ✅ ❌ ❌ ❌
-Manage Users ✅ ❌ ❌ ❌
+| Permission | Admin | Doctor | Pharmacist | Secretary |
+|------------|-------|--------|------------|-----------|
+| Manage Patients | ✅ | ❌ | ❌ | ✅ |
+| Create Visits | ✅ | ✅ | ❌ | ✅ |
+| Create Prescriptions | ✅ | ✅ | ❌ | ❌ |
+| Dispense Medications | ✅ | ❌ | ✅ | ❌ |
+| Manage Inventory | ✅ | ❌ | ✅ | ❌ |
+| View Reports | ✅ | ❌ | ❌ | ❌ |
+| Manage Users | ✅ | ❌ | ❌ | ❌ |
 
 Authentication Flow
 
@@ -158,25 +159,14 @@ Add your actual screenshots here for better SEO and user engagement.
 
 ---
 
-🔧 Troubleshooting
+### 🔧 Troubleshooting
 
-Problem Solution
-Database connection error Check credentials in config/database.php
-White screen after login Enable PHP error reporting: ini_set('display_errors', 1);
-404 on subpages Verify mod_rewrite is enabled for Apache
-SQL import fails Ensure MySQL version 5.7+ and check file encoding
-
----
-
-📈 SEO Optimization (For Google)
-
-This README is optimized with:
-
-· Keywords: hospital management system, PHP MVC, medical records, pharmacy inventory, appointment scheduling
-· Structured headings (H1, H2, H3) for crawlers
-· Clear metadata in first 150 characters
-· Internal navigation (Table of Contents)
-· Rich snippets using tables and code blocks
+| Problem | Solution |
+|---------|----------|
+| Database connection error | Check credentials in `config/database.php` |
+| White screen after login | Enable PHP error reporting: `ini_set('display_errors', 1);` |
+| 404 on subpages | Verify mod_rewrite is enabled for Apache |
+| SQL import fails | Ensure MySQL version 5.7+ and check file encoding |
 
 ---
 
