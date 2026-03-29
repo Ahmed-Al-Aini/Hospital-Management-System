@@ -1,0 +1,7 @@
+{
+    "name": "ahmed-senan-al-aini/hospital-management-system",
+    "description": "Hospital Management System",
+    "require": {
+        "php": ">=7.4"
+    }
+}
