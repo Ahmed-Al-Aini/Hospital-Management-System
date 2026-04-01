@@ -42,10 +42,7 @@
 
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@hospital.com | admin123 |
-| Doctor | doctor@hospital.com | doctor123 |
-| Pharmacist | pharmacist@hospital.com | pharmacist123 |
-| Secretary | secretary@hospital.com | secretary123 |
+| Admin | admin@hospital.com | admin |
 
 > ⚠️ **Change default passwords immediately after installation!**
 
@@ -154,8 +151,6 @@ Hospital-Management-System/
 📸 Screenshots
 
 Coming soon: Dashboard, Patient Management, Pharmacy Inventory, Prescriptions
-
-Add your actual screenshots here for better SEO and user engagement.
 
 ---
 
