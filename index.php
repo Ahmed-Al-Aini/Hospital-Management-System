@@ -7,11 +7,6 @@ define('ROOT_PATH', __DIR__ . DS);
 
 
 
-/*
-|--------------------------------------------------------------------------
-| تحميل الإعدادات
-|--------------------------------------------------------------------------
-*/
 
 require_once ROOT_PATH . 'config' . DS . 'constants.php';
 require_once ROOT_PATH . 'config' . DS . 'database.php';
@@ -44,12 +39,6 @@ if (session_status() === PHP_SESSION_NONE) {
 
 
 
-/*
-|--------------------------------------------------------------------------
-| تحميل النواة
-|--------------------------------------------------------------------------
-*/
-
 spl_autoload_register(function ($class) {
     $direc = ['core', 'controllers', 'models'];
     foreach ($direc as $dir) {
@@ -62,12 +51,6 @@ spl_autoload_register(function ($class) {
 });
 
 
-/*
-|--------------------------------------------------------------------------
-| تشغيل الراوتر
-|--------------------------------------------------------------------------
-*/
-
 try {
 
     $router = new Router();
@@ -79,10 +62,6 @@ try {
     error_log($e->getMessage());
 }
 
-
-
-
-//require_once __DIR__ . "/views/layouts/header.php";
 $title = "Index";
 
 ?>
